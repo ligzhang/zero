@@ -26,6 +26,11 @@ module.exports = {
         target: "http://localhost:4008/",
         secure: false,
         changeOrigin: true
+      },
+      "/user": {
+        target: "http://localhost:4008/",
+        secure: false,
+        changeOrigin: true
       }
     }
   },
